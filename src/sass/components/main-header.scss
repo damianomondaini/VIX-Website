@@ -1,0 +1,34 @@
+/*
+# Main Header
+*/
+
+.main-header{
+    background-color: $color-vix-pink;
+}
+
+.main-header__inner-small{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.main-header__inner-small::after{
+    content: '';
+    background-image: url("../images/wave-header.svg");
+    position: absolute;
+    top: 79px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.main-header__inner-small .main-header__logo{
+    height: 40px;
+    width: auto;
+}
+
+.main-header__inner-small .main-header__hamburger{
+    color: $color-white;
+}
