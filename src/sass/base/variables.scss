@@ -36,7 +36,13 @@ $h6-size: 14px !default;
  * Heading spacing
 */
 
-$heading-spacing: 25px 0 10px !default;
+//$heading-spacing: 25px 0 10px !default;
+
+/*
+ * Spacing value
+*/
+
+$spacing-value: 50px !default;
 
 /*
  * Paragraph spacing
@@ -57,9 +63,4 @@ $base-line-height: 1.5 !default;
 $color-white: #ffffff !default;
 $color-black: #000000 !default;
 $color-vix-pink: #EF476F !default;
-
-/*
- * Padding
-*/
-
-$padding-small: 7%;
+$color-vix-gray: #EEEEEE !default;

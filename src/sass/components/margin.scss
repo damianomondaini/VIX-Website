@@ -1,0 +1,19 @@
+/*
+# Margin
+*/
+
+.margin > *:first-child{
+    margin-top: $spacing-value;
+}
+
+.margin > *:last-child{
+    margin-bottom: $spacing-value;
+}
+
+.margin > *:not(p){
+    margin-bottom: $spacing-value;
+}
+
+.margin > p{
+    margin-bottom: $spacing-value/2;
+}
