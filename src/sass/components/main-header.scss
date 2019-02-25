@@ -1,19 +1,48 @@
 /*
-# Main Header
+# Main-header
 */
 
 .main-header{
     background-color: $color-vix-pink;
-}
-
-.main-header__inner-small{
-    display: flex;
-    justify-content: space-between;
     height: 80px;
     align-items: center;
+    padding: 5px 0 5px 0;
 }
 
-.main-header__inner-small::after{
+.main-header__logo--small > img{
+    width: 100%;
+    height: auto;
+}
+
+.main-header__logo--big{
+    display: none;
+    height: 100%;
+    width: auto;
+}
+
+.main-header__nav--big{
+    display: none;
+}
+
+.main-header__logo--small{
+    grid-column: 2 / 4;
+}
+
+.main-header__nav{
+    grid-column: 4 / 12;
+    justify-self: end;
+}
+
+.main-header__nav > ul{
+    list-style: none;
+}
+
+.main-header__hamburger{
+    height: 25px;
+    width: auto;
+}
+
+.main-header::after{
     content: '';
     background-image: url("../images/wave-header.svg");
     position: absolute;
@@ -22,13 +51,4 @@
     height: 100%;
     background-repeat: no-repeat;
     left: 0;
-}
-
-.main-header__inner-small .main-header__logo{
-    height: 40px;
-    width: auto;
-}
-
-.main-header__inner-small .main-header__hamburger{
-    color: $color-white;
 }
