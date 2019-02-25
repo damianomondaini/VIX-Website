@@ -1,6 +1,9 @@
 // Normalise
 @import "./vendor/normalise";
 
+//Font face
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
 // Base
 @import "./base/variables";
 @import "./base/base";
@@ -9,3 +12,6 @@
 // Components
 @import "./components/grid";
 @import "./components/main-header";
+@import "./components/landing";
+@import "./components/button-filled";
+@import "./components/button-stroke";
