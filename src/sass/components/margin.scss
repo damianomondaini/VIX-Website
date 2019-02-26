@@ -2,6 +2,10 @@
 # Margin
 */
 
+.margin > p, .margin > .button--stroke, .margin > .button--filled{
+    margin-bottom: $spacing-value/2;
+}
+
 .margin > *:first-child{
     margin-top: $spacing-value;
 }
@@ -10,10 +14,6 @@
     margin-bottom: $spacing-value;
 }
 
-.margin > *:not(p){
+.margin > *{
     margin-bottom: $spacing-value;
-}
-
-.margin > p{
-    margin-bottom: $spacing-value/2;
 }

@@ -27,3 +27,13 @@
 .service__title{
     text-align: center;
 }
+
+.services__button--filled{
+    grid-column: 2 / 12;
+    font-size: 25px;
+}
+
+.services__button--stroke{
+    grid-column: 2 / 12;
+    font-size: 25px;
+}
