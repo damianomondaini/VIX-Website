@@ -1,0 +1,31 @@
+/*
+# Main Footer
+*/
+
+.main-footer{
+    background-color: $color-vix-pink;
+}
+
+.main-footer__contact{
+    color: $color-white;
+    grid-column: 2 / 12;
+}
+
+.main-footer__contact{
+    text-align: center;
+}
+
+.main-footer__social-container{
+    grid-column: 3 / 11;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer__social-img{
+    width: auto;
+    height: 50px;
+}
+
+.main-footer__policy{
+    color: $color-white;
+}
