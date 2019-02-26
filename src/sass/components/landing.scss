@@ -4,7 +4,7 @@
 
 .landing{
     height: calc(100vh - 80px);
-    grid-template-rows: 80% 20%;
+    grid-template-rows: 70% 30%;
     justify-items: center;
     align-items: center;
 }
@@ -14,13 +14,13 @@
 }
 
 .landing__button.button--filled{
-    grid-column: 2 / 6;
+    grid-column: 2 / 7;
     align-self: start;
 }
 
 .landing__button.button--stroke{
     align-self: start;
-    grid-column: 8 / 12;
+    grid-column: 7 / 12;
 }
 
 .landing__title{
