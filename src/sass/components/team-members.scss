@@ -1,0 +1,46 @@
+/*
+# Team members
+*/
+.team-members{
+    margin-top: 80px;
+}
+
+.team-members__title{
+    grid-column: 2 / 12;
+    text-align: center;
+}
+
+.member{
+    grid-column: 2 / 12;
+}
+
+.member-container{
+    transition: ease-in 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.member__name{
+    text-align: center;
+}
+
+.member-image{
+    width: 100%;
+    border-radius: 100%;
+    transition: ease-in 0.2s;
+}
+
+.member-function{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    color: $color-white;
+    font-size: $h2-size;
+    z-index: 10;
+    transition: ease-in 0.2s;
+    display: none;
+}
