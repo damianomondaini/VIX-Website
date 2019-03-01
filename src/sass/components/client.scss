@@ -4,6 +4,7 @@
 
 .client{
     align-items: center;
+    justify-items: center;
 }
 
 .client__title{
@@ -50,12 +51,12 @@
 
 .client__logo--first{
     grid-column: 2 / 6;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 .client__logo--second{
     grid-column: 7 / 12;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: auto;   
 }
