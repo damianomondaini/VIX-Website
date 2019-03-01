@@ -12,6 +12,12 @@
 
 .landing__title{
     grid-column: 1 / 13;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .landing__button.button--filled{
@@ -32,4 +38,21 @@
 
 .title--pink{
     color: $color-vix-pink;
+}
+
+@media (min-width: $min-tablette) and (max-width: $max-tablette){
+    .landing__title{
+        grid-column: 2 / 12;
+        text-align: left;
+        justify-self: left;
+        align-items: flex-start;
+    }
+
+    .landing__button.button--filled{
+        grid-column: 2 / 5;
+    }
+
+    .landing__button.button--stroke{
+        grid-column: 6 / 9;
+    }
 }

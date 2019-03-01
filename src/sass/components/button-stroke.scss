@@ -15,3 +15,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: $min-tablette) and (max-width: $max-tablette){
+    .button--stroke{
+        height: 60px;
+        font-size: 20px;
+    }
+}

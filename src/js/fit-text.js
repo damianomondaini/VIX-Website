@@ -1,0 +1,1 @@
+window.fitText(document.querySelector('.landing__title'), 0.55);
