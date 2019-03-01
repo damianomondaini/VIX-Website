@@ -20,6 +20,7 @@
 
 .project__link, .job__link{
     color: black;
+    text-align: right;
 }
 
 .project__details > h4, .job__details > h4{
@@ -39,4 +40,14 @@
 
 .job__opportunity > a{
     text-decoration: none;
+}
+
+@media (min-width: $min-tablette) and (max-width: $max-tablette){
+    .portfolio__project--first{
+        grid-column: 2 / 7;
+    }
+
+    .portfolio__project--second{
+        grid-column: 7 / 12;
+    }
 }
