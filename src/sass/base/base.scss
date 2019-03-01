@@ -33,3 +33,9 @@ body {
     overflow-x: hidden;
     width: 100%;
 }
+
+@media (min-width: $min-tablette) and (max-width: $max-tablette){
+    html {
+        font-size: $base-font-size * $value-tablette;
+    }
+}

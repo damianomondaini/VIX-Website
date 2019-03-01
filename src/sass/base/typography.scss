@@ -39,6 +39,32 @@ h6 {
     font-size: $h6-size;
 }
 
+@media (min-width: $min-tablette) and (max-width: $max-tablette){
+    h1 {
+        font-size: $h1-size * $value-tablette;
+    }
+    
+    h2 {
+        font-size: $h2-size * $value-tablette;
+    }
+    
+    h3 {
+        font-size: $h3-size * $value-tablette;
+    }
+    
+    h4 {
+        font-size: $h4-size * $value-tablette;
+    }
+    
+    h5 {
+        font-size: $h5-size * $value-tablette;
+    }
+    
+    h6 {
+        font-size: $h6-size * $value-tablette;
+    }
+}
+
 /*
  Paragraphes
 */
