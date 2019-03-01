@@ -51,12 +51,22 @@
 
 .client__logo--first{
     grid-column: 2 / 6;
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
 .client__logo--second{
     grid-column: 7 / 12;
-    width: 50%;
-    height: auto;   
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: $min-tablette) and (max-width: $max-tablette){
+    .client__logo--first{
+        width: 50%;
+    }
+    
+    .client__logo--second{
+        width: 50%;
+    }
 }
