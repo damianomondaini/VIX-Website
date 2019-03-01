@@ -64,3 +64,10 @@ $color-white: #ffffff !default;
 $color-black: #000000 !default;
 $color-vix-pink: #EF476F !default;
 $color-vix-gray: #EEEEEE !default;
+
+/*
+ * Media queries
+*/
+
+$min-tablette: 525px;
+$max-tablette: 768px;
