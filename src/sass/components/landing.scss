@@ -40,6 +40,14 @@
     color: $color-vix-pink;
 }
 
+.landing--big{
+    display: none;
+}
+
+.landing__logo{
+    display: none;
+}
+
 @media (min-width: $min-tablette) and (max-width: $max-tablette){
     .landing__title{
         grid-column: 2 / 12;
@@ -58,5 +66,88 @@
 
     .landing{
         grid-template-rows: 75% 35%;
+    }
+}
+
+@media (min-width: $min-laptop){
+    .landing--small{
+        display: none;
+    }
+
+    .landing--big{
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        background-color: $color-white;
+    }
+
+    .landing--big{
+        display: grid;
+        grid-template-rows: 100%;
+    }
+
+    .landing__container{
+        grid-column: 1 / 2;
+    }
+
+    .landing__wave{
+        grid-column: 2 / 3;
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/wave-landing.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-right: 40px;
+    }
+
+    .main-header__nav--big{
+        display: block;
+    }
+
+    .main-header{
+        background-color: transparent;
+    }
+
+    .landing__logo{
+        display: block;
+        height: auto;
+        width: 50%;
+        margin: auto;
+    }
+
+    .landing__title{
+        margin: 0;
+        height: auto;
+        display: block;
+        text-align: left;
+    }
+
+    .landing__container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+        align-items: flex-start;
+    }
+
+    .landing__button-container{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .landing__button.button--filled{
+        width: 45%;
+    }
+
+    .landing__button.button--stroke{
+        width: 45%;
     }
 }
