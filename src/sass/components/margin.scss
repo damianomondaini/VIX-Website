@@ -17,3 +17,21 @@
 .margin > *{
     margin-bottom: $spacing-value;
 }
+
+@media (min-width: $min-laptop){
+    .margin > p, .margin > .button--stroke, .margin > .button--filled{
+        margin-bottom: 0;
+    }
+    
+    .margin > *:first-child{
+        margin-top: 0;
+    }
+    
+    .margin > *:last-child{
+        margin-bottom: 0;
+    }
+    
+    .margin > *{
+        margin-bottom: 0;
+    }
+}

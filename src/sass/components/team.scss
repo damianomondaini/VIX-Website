@@ -23,6 +23,44 @@
     font-size: 35px;
 }
 
-.team__paragraph{
+.team__paragraphs-container{
     grid-column: 2 / 12;
+}
+
+.team__paragraph{
+    margin-bottom: $spacing-value/2;
+}
+
+@media (min-width: $min-laptop){
+    .team__title{
+        grid-column: 1 / 7;
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .team__img{
+        grid-column: 1 / 7;
+        align-self: center;
+    }
+
+    .team__button{
+        grid-column: 1 / 7;
+        align-self: end;
+    }
+
+    .team__paragraphs-container{
+        grid-column: 8 / 13;
+        grid-row: 1 / 4;
+    }
+
+    .team__paragraphs-container > *:last-child{
+        margin: 0;
+    }
+
+    .team__paragraphs-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
