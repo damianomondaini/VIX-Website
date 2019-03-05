@@ -57,7 +57,7 @@
     position: absolute;
     top: 79px;
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-repeat: no-repeat;
     left: 0;
     transition: 0.3s ease;    
@@ -94,5 +94,6 @@
     .main-header__nav--big > a{
         color: $color-white;
         text-decoration: none;
+        font-size: 0.8em;
     }
 }
