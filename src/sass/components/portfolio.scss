@@ -13,12 +13,11 @@
 
 @media (min-width: $min-laptop){
     .portfolio{
-        grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
 
     .portfolio__title{
-        grid-column: auto;
+        grid-column: 1 / 5;
         text-align: left;
     }
 }

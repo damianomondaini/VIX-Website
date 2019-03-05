@@ -36,6 +36,12 @@ body {
 
 @media (min-width: $min-tablette) and (max-width: $max-tablette){
     html {
-        font-size: $base-font-size * $value-tablette;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: $min-laptop){
+    html {
+        font-size: 1.15em;
     }
 }

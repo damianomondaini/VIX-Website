@@ -59,4 +59,16 @@
     .portfolio__project{
         grid-column: auto;
     }
+
+    .project__details > *{
+        font-size: 0.9em;
+    }
+
+    .portfolio__project--first{
+        grid-column: 5 / 9;
+    }
+
+    .portfolio__project--second{
+        grid-column: 9 / 13 ;
+    }
 }
