@@ -23,8 +23,9 @@
     text-align: right;
 }
 
-.project__details > h4, .job__details > h4{
+.project__details > p, .job__details > p{
     margin: 0;
+    font-weight: 700;
 }
 
 .job__name{
@@ -52,4 +53,10 @@
     }
 
     
+}
+
+@media (min-width: $min-laptop){
+    .portfolio__project{
+        grid-column: auto;
+    }
 }

@@ -31,7 +31,25 @@
     margin-bottom: $spacing-value/2;
 }
 
-@media (min-width: $min-laptop){
+@media (min-width: $min-laptop) and (max-width: $max-laptop){
+    .team__title{
+        grid-column: 1 / 13;
+    }
+    
+    .team__img{
+        grid-column: 1 / 13;
+    }
+    
+    .team__button{
+        grid-column: 1 / 13;
+    }
+    
+    .team__paragraphs-container{
+        grid-column: 1 / 13;
+    }
+}
+
+@media (min-width: $min-desktop){
     .team__title{
         grid-column: 1 / 8;
         font-size: 50px;
