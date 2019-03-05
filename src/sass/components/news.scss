@@ -52,3 +52,21 @@
 .news__author{
     color: $color-vix-pink;
 }
+
+@media (min-width: $min-laptop){
+    .news{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .news__card{
+        grid-column: auto;
+    }
+
+    .news__title{
+        grid-column: 1 / 4;
+    }
+
+    .news > *:last-child{
+        display: none;
+    }
+}
