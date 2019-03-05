@@ -14,3 +14,9 @@
         grid-gap: 30px;
     }
 }
+
+@media (min-width: $min-laptop){
+    .grid{
+        grid-gap: 30px;
+    }
+}
