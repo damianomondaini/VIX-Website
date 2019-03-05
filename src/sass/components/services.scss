@@ -37,3 +37,25 @@
     grid-column: 2 / 12;
     font-size: 25px;
 }
+
+@media (min-width: $min-laptop){
+    .services{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service__container     {
+        grid-column: auto;
+    }
+
+    .services__title{
+        grid-column: 1 / 3;
+    }
+
+    .services__button--filled{
+        grid-column: auto;
+    }
+
+    .services__button--stroke{
+        grid-column: auto;
+    }
+}
