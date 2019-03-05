@@ -59,3 +59,33 @@
         grid-column: auto;
     }
 }
+
+@media (min-width: $min-desktop){
+    .services{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .services__title{
+        grid-column: 1 / 7;
+    }
+
+    .service__container--one, .service__container--four{
+        grid-column: 1 / 3;
+    }
+
+    .service__container--two, .service__container--five{
+        grid-column: 3 / 5;
+    }
+
+    .service__container--three, .service__container--six{
+        grid-column: 5 / 7;
+    }
+
+    .services__button--filled{
+        grid-column: 1 / 4;
+    }
+
+    .services__button--stroke{
+        grid-column: 4 / 7;
+    }
+}
