@@ -7,3 +7,9 @@
         padding: 50px 100px 50px 100px;
     }
 }
+
+@media (min-width: $min-desktop){
+    .padding{
+        padding: 100px 12vw 100px 12vw;
+    }
+}
