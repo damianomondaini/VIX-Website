@@ -70,3 +70,25 @@
         width: 50%;
     }
 }
+
+@media (min-width: $min-laptop){
+    .client__container{
+        grid-column: 7 / 13;
+        grid-row: 2 / 5;
+    }
+
+    .client__logo--first{
+        grid-column: 1 / 4;
+        width: 75%;
+    }
+    
+    .client__logo--second{
+        grid-column: 4 / 7;
+        width: 75%;
+    }
+
+    .client__title{
+        grid-column: 1 / 13;
+        grid-row: 1 / 2;
+    }
+}
