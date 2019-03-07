@@ -64,7 +64,7 @@
 }
 
 .main-header__animation::after{
-    top: 100vh !important;
+    top: 100vh;
 }
 
 @media (min-width: $min-laptop){
@@ -94,6 +94,21 @@
     .main-header__nav--big > a{
         color: $color-white;
         text-decoration: none;
+    }
+}
+
+@media (min-width: 1230px){
+    .main-header__nav--big a{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: $min-laptop) and (max-width: 1230px){
+    .main-header__nav--big a{
         font-size: 0.8em;
     }
+}
+
+.main-header__nav--big:hover{
+    text-decoration: underline;
 }
