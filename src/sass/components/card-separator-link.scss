@@ -41,19 +41,7 @@
 
 .job__opportunity > a{
     text-decoration: none;
-}
-
-@media (min-width: $min-tablette) and (max-width: $max-tablette){
-    .portfolio__project--first{
-        grid-column: 2 / 7;
-    }
-
-    .portfolio__project--second{
-        grid-column: 7 / 12;
-    }
-
-    
-}
+}   
 
 @media (min-width: $min-laptop){
     .portfolio__project{

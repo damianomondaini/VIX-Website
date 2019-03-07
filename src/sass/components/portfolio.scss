@@ -21,9 +21,3 @@
         text-align: left;
     }
 }
-
-@media (min-width: $min-desktop){
-    .portfolio__title{
-        grid-column: 1 / 13;
-    }
-}
