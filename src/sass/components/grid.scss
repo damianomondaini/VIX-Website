@@ -9,14 +9,14 @@
     grid-gap: 10px;
 }
 
-@media (min-width: $min-tablette) and (max-width: $max-tablette){
+@media (min-width: $min-tablette){
     .grid{
-        grid-gap: 30px;
+        grid-gap: 40px;
     }
 }
 
 @media (min-width: $min-laptop){
     .grid{
-        grid-gap: 30px;
+        grid-row-gap: $spacing-value;
     }
 }
