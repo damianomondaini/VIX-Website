@@ -31,7 +31,7 @@
     margin-bottom: $spacing-value/2;
 }
 
-@media (min-width: $min-laptop) and (max-width: $max-laptop){
+@media (min-width: $min-laptop) and (max-width: 1345px){
     .team__title{
         grid-column: 1 / 13;
     }
@@ -49,7 +49,7 @@
     }
 }
 
-@media (min-width: $min-desktop){
+@media (min-width: 1345px){
     .team__title{
         grid-column: 1 / 8;
         font-size: 50px;
