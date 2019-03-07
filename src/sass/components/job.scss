@@ -16,3 +16,21 @@
         height: 250px;
     }
 }
+
+@media (min-width: $min-laptop){
+    .job{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .job__title{
+        grid-column: 1 / 3;
+    }
+    
+    .job__name{
+        height: 300px;
+    }
+
+    .job__details *{
+        margin: 0;
+    }
+}

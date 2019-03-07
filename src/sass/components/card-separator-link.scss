@@ -71,6 +71,10 @@
     .portfolio__project--second{
         grid-column: 9 / 13 ;
     }
+
+    .job__opportunity{
+        grid-column: auto;
+    }
 }
 
 @media (min-width: $min-desktop){
