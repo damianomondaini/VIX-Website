@@ -63,10 +63,24 @@
     }
 
     .news__title{
-        grid-column: 1 / 4;
+        grid-column: 1 / 3;
     }
 
     .news > *:last-child{
         display: none;
+    }
+}
+
+@media (min-width: $min-desktop){
+    .news{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .news__title{
+        grid-column: 1 / 4;
+    }
+
+    .news > *:last-child{
+        display: block;
     }
 }
