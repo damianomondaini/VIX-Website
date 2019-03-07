@@ -1,0 +1,49 @@
+/*
+# Second header
+*/
+
+.second-header{
+    display: none;
+}
+
+@media (min-width: $min-laptop){
+    .second-header{
+        display: block;
+        height: 80px;
+        padding: 15px 40px 15px 40px;
+    }
+    
+    .second-header__nav{
+        height: 100%;
+    }
+    
+    .second-header__nav ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+    }
+    
+    .second-header__logo img{
+        height: 100%;
+        width: auto;
+    }
+    
+    .second-header__logo{
+        height: 100%;
+    }
+
+    .second-header__nav--big a{
+        text-decoration: none;
+        color: $color-vix-pink;
+    }
+}
+
+@media (min-width: $min-desktop){
+    .second-header{
+        padding: 15px 12vw 15px 12vw;
+    }
+}
