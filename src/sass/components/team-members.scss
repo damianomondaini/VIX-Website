@@ -47,6 +47,10 @@
     display: none;
 }
 
+.member--special{
+    display: none;
+}
+
 @media (min-width: $min-tablette) and (max-width: $max-tablette){
     .team-members{
         grid-template-columns: 1fr 1fr;
@@ -73,5 +77,51 @@
 @media (min-width: 570px) and (max-width: $max-tablette){
     .member-function{
         font-size: 24px;
+    }
+}
+
+@media (min-width: $min-laptop){
+    .member--special{
+        display: block;
+    }
+    
+    .team-members{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 20px 0 20px;
+        margin: 0;
+    }
+
+    .member{
+        grid-column: auto;
+    }
+
+    .team-members__title{
+        grid-column: 1 / 4;
+    }
+
+    .member-function{
+        font-size: 20px;
+    }
+
+    .member__name{
+        font-size: 24px;
+    }
+
+    .member-container--special{
+        background-color: $color-vix-pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 100%;
+        position: relative;
+    }
+
+    .member-container--special p{
+        display: block;
+    }
+
+    .member-container--special a{
+        color: white;
     }
 }
