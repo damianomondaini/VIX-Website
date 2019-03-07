@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-@media (min-width: $min-laptop){
+@media (min-width: $min-laptop) and (max-width: $max-laptop){
     .portfolio{
         align-items: center;
     }
@@ -19,5 +19,11 @@
     .portfolio__title{
         grid-column: 1 / 5;
         text-align: left;
+    }
+}
+
+@media (min-width: $min-desktop){
+    .portfolio__title{
+        grid-column: 1 / 13;
     }
 }

@@ -72,3 +72,13 @@
         grid-column: 9 / 13 ;
     }
 }
+
+@media (min-width: $min-desktop){
+    .portfolio__project--first{
+        grid-column: 1 / 7;
+    }
+
+    .portfolio__project--second{
+        grid-column: 7 / 13 ;
+    }
+}
